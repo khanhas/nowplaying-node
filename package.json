@@ -25,7 +25,8 @@
   "scripts": {
     "build": "node-gyp build",
     "rebuild": "node-gyp rebuild",
-    "lint": "clang-format -i --glob='src/*.{cpp,h}"
+    "lint": "clang-format -i --glob='src/*.{cpp,h}",
+    "tsc": "tsc"
   },
   "files": [
     "index.ts",
