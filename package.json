@@ -1,0 +1,32 @@
+{
+  "name": "nowplaying-node",
+  "version": "0.1",
+  "description": "Control AIMP, foobar2000, iTunes,... players and get track information.",
+  "gypfile": true,
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^10.1.2"
+  },
+  "devDependencies": {
+    "clang-format": "^1.2.3",
+    "node-addon-api": "^1.2.0",
+    "node-gyp": "^3.6.2",
+    "typescript": "^2.8.3",
+    "windows-build-tools": "^2.3.0"
+  },
+  "scripts": {
+    "build": "node-gyp build",
+    "rebuild": "node-gyp rebuild",
+    "lint": "clang-format -i --glob='src/*.{cpp,h}"
+  },
+  "files": [
+    "index.ts",
+    "index.d.ts",
+    "index.js",
+    "list-sources.js",
+    "binding.gyp",
+    "src"
+  ],
+  "author": "khanhas",
+  "license": "MIT"
+}

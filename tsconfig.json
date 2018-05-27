@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "types": ["node"],
+        "typeRoots": ["node_modules/@types"],
+        "sourceMap": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": false,
+        "noResolve": false,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "strictNullChecks": true
+    },
+    "include": [
+        "index.ts"
+    ],
+}
