@@ -1,6 +1,6 @@
 {
   "name": "nowplaying-node",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Control AIMP, foobar2000, iTunes,... players and get track information.",
   "gypfile": true,
   "main": "index.js",
@@ -28,5 +28,28 @@
     "src"
   ],
   "author": "khanhas",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "aimp",
+    "foobar",
+    "foobar2000",
+    "itunes",
+    "j.river media center",
+    "j.river",
+    "jriver",
+    "jukebox",
+    "media control",
+    "media",
+    "mediamonkey",
+    "music",
+    "musicbee",
+    "player",
+    "song metadata",
+    "song",
+    "spotify",
+    "track metadata",
+    "winamp",
+    "windows media player",
+    "windows"
+  ]
 }
