@@ -1,16 +1,24 @@
 {
   "name": "nowplaying-node",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Control AIMP, foobar2000, iTunes,... players and get track information.",
+  "author": {
+    "name": "khanhas",
+    "url": "http://khanhas.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khanhas/nowplaying-node"
+  },
   "gypfile": true,
   "main": "index.js",
   "dependencies": {
-    "@types/node": "^10.1.2"
+    "@types/node": "^10.1.2",
+    "node-addon-api": "^1.2.0",
+    "node-gyp": "^3.6.2"
   },
   "devDependencies": {
     "clang-format": "^1.2.3",
-    "node-addon-api": "^1.2.0",
-    "node-gyp": "^3.6.2",
     "typescript": "^2.8.3",
     "windows-build-tools": "^2.3.0"
   },
@@ -27,7 +35,6 @@
     "binding.gyp",
     "src"
   ],
-  "author": "khanhas",
   "license": "MIT",
   "keywords": [
     "aimp",
