@@ -1,0 +1,1744 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\SDKs">
+      <UniqueIdentifier>{82EF82AC-F861-F41B-B767-BE03FD606528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\SDKs\AIMP">
+      <UniqueIdentifier>{5C4FBD94-63F8-9330-C6F0-21DAD8BEA0C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\SDKs">
+      <UniqueIdentifier>{82EF82AC-F861-F41B-B767-BE03FD606528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\SDKs\CAD">
+      <UniqueIdentifier>{9026F2C4-6D53-C222-0640-A2EF76E1A80A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\SDKs">
+      <UniqueIdentifier>{82EF82AC-F861-F41B-B767-BE03FD606528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\SDKs\iTunes">
+      <UniqueIdentifier>{E67353AB-D249-F912-1347-31611F8E1B37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\SDKs">
+      <UniqueIdentifier>{82EF82AC-F861-F41B-B767-BE03FD606528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\SDKs\iTunes">
+      <UniqueIdentifier>{E67353AB-D249-F912-1347-31611F8E1B37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\SDKs">
+      <UniqueIdentifier>{82EF82AC-F861-F41B-B767-BE03FD606528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\SDKs\Winamp">
+      <UniqueIdentifier>{FC44008F-4A61-8EA4-2595-0CC83D29FBC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\SDKs">
+      <UniqueIdentifier>{82EF82AC-F861-F41B-B767-BE03FD606528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\SDKs\Winamp">
+      <UniqueIdentifier>{FC44008F-4A61-8EA4-2595-0CC83D29FBC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\SDKs">
+      <UniqueIdentifier>{82EF82AC-F861-F41B-B767-BE03FD606528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\SDKs\Winamp">
+      <UniqueIdentifier>{FC44008F-4A61-8EA4-2595-0CC83D29FBC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\SDKs">
+      <UniqueIdentifier>{82EF82AC-F861-F41B-B767-BE03FD606528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\SDKs\Winamp">
+      <UniqueIdentifier>{FC44008F-4A61-8EA4-2595-0CC83D29FBC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ape">
+      <UniqueIdentifier>{E270A557-F511-5897-F8F7-6CB67D3BA908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ape">
+      <UniqueIdentifier>{E270A557-F511-5897-F8F7-6CB67D3BA908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ape">
+      <UniqueIdentifier>{E270A557-F511-5897-F8F7-6CB67D3BA908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ape">
+      <UniqueIdentifier>{E270A557-F511-5897-F8F7-6CB67D3BA908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ape">
+      <UniqueIdentifier>{E270A557-F511-5897-F8F7-6CB67D3BA908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\asf">
+      <UniqueIdentifier>{6734F772-2F85-0D9B-3AE1-8849D84F1B0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\asf">
+      <UniqueIdentifier>{6734F772-2F85-0D9B-3AE1-8849D84F1B0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\asf">
+      <UniqueIdentifier>{6734F772-2F85-0D9B-3AE1-8849D84F1B0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\asf">
+      <UniqueIdentifier>{6734F772-2F85-0D9B-3AE1-8849D84F1B0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\asf">
+      <UniqueIdentifier>{6734F772-2F85-0D9B-3AE1-8849D84F1B0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\flac">
+      <UniqueIdentifier>{82973C72-35FF-0FFE-2D50-5CF41D049EBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\flac">
+      <UniqueIdentifier>{82973C72-35FF-0FFE-2D50-5CF41D049EBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\flac">
+      <UniqueIdentifier>{82973C72-35FF-0FFE-2D50-5CF41D049EBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\flac">
+      <UniqueIdentifier>{82973C72-35FF-0FFE-2D50-5CF41D049EBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\flac">
+      <UniqueIdentifier>{82973C72-35FF-0FFE-2D50-5CF41D049EBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mp4">
+      <UniqueIdentifier>{2A0EC54E-581E-A0DC-CE33-2A1AE636C628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mp4">
+      <UniqueIdentifier>{2A0EC54E-581E-A0DC-CE33-2A1AE636C628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mp4">
+      <UniqueIdentifier>{2A0EC54E-581E-A0DC-CE33-2A1AE636C628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mp4">
+      <UniqueIdentifier>{2A0EC54E-581E-A0DC-CE33-2A1AE636C628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mp4">
+      <UniqueIdentifier>{2A0EC54E-581E-A0DC-CE33-2A1AE636C628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mp4">
+      <UniqueIdentifier>{2A0EC54E-581E-A0DC-CE33-2A1AE636C628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpc">
+      <UniqueIdentifier>{5C00A51F-CA83-9B33-127D-44D35BEC8CE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpc">
+      <UniqueIdentifier>{5C00A51F-CA83-9B33-127D-44D35BEC8CE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v1">
+      <UniqueIdentifier>{71CD9D73-9039-5616-F810-FC54C2A6350D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v1">
+      <UniqueIdentifier>{71CD9D73-9039-5616-F810-FC54C2A6350D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2\frames">
+      <UniqueIdentifier>{B0AF38D9-8A46-1380-87E9-A20F3F8871AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2\frames">
+      <UniqueIdentifier>{B0AF38D9-8A46-1380-87E9-A20F3F8871AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2\frames">
+      <UniqueIdentifier>{B0AF38D9-8A46-1380-87E9-A20F3F8871AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2\frames">
+      <UniqueIdentifier>{B0AF38D9-8A46-1380-87E9-A20F3F8871AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2\frames">
+      <UniqueIdentifier>{B0AF38D9-8A46-1380-87E9-A20F3F8871AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2\frames">
+      <UniqueIdentifier>{B0AF38D9-8A46-1380-87E9-A20F3F8871AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2\frames">
+      <UniqueIdentifier>{B0AF38D9-8A46-1380-87E9-A20F3F8871AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2\frames">
+      <UniqueIdentifier>{B0AF38D9-8A46-1380-87E9-A20F3F8871AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2\frames">
+      <UniqueIdentifier>{B0AF38D9-8A46-1380-87E9-A20F3F8871AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2\frames">
+      <UniqueIdentifier>{B0AF38D9-8A46-1380-87E9-A20F3F8871AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2\frames">
+      <UniqueIdentifier>{B0AF38D9-8A46-1380-87E9-A20F3F8871AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2\frames">
+      <UniqueIdentifier>{B0AF38D9-8A46-1380-87E9-A20F3F8871AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg\id3v2">
+      <UniqueIdentifier>{181E1932-E001-DA66-D360-99ECC34BBA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\mpeg">
+      <UniqueIdentifier>{1BF0D286-1819-358B-42DB-654AF451C34F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ogg">
+      <UniqueIdentifier>{717291E8-94C6-6F1E-0204-495A57EA1EDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ogg\flac">
+      <UniqueIdentifier>{82973C72-35FF-0FFE-2D50-5CF41D049EBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ogg">
+      <UniqueIdentifier>{717291E8-94C6-6F1E-0204-495A57EA1EDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ogg">
+      <UniqueIdentifier>{717291E8-94C6-6F1E-0204-495A57EA1EDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ogg">
+      <UniqueIdentifier>{717291E8-94C6-6F1E-0204-495A57EA1EDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ogg">
+      <UniqueIdentifier>{717291E8-94C6-6F1E-0204-495A57EA1EDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ogg\speex">
+      <UniqueIdentifier>{D687830A-8469-17DD-1159-4C33980ADFC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ogg">
+      <UniqueIdentifier>{717291E8-94C6-6F1E-0204-495A57EA1EDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ogg\speex">
+      <UniqueIdentifier>{D687830A-8469-17DD-1159-4C33980ADFC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ogg">
+      <UniqueIdentifier>{717291E8-94C6-6F1E-0204-495A57EA1EDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ogg\vorbis">
+      <UniqueIdentifier>{743C155F-5EA1-0AC5-89CF-A1D09614DABF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ogg">
+      <UniqueIdentifier>{717291E8-94C6-6F1E-0204-495A57EA1EDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ogg\vorbis">
+      <UniqueIdentifier>{743C155F-5EA1-0AC5-89CF-A1D09614DABF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\ogg">
+      <UniqueIdentifier>{717291E8-94C6-6F1E-0204-495A57EA1EDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\toolkit">
+      <UniqueIdentifier>{F14B916B-93E3-350B-4035-A4960DDC0E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\toolkit">
+      <UniqueIdentifier>{F14B916B-93E3-350B-4035-A4960DDC0E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\toolkit">
+      <UniqueIdentifier>{F14B916B-93E3-350B-4035-A4960DDC0E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\toolkit">
+      <UniqueIdentifier>{F14B916B-93E3-350B-4035-A4960DDC0E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\toolkit">
+      <UniqueIdentifier>{F14B916B-93E3-350B-4035-A4960DDC0E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\toolkit">
+      <UniqueIdentifier>{F14B916B-93E3-350B-4035-A4960DDC0E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\toolkit">
+      <UniqueIdentifier>{F14B916B-93E3-350B-4035-A4960DDC0E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\toolkit">
+      <UniqueIdentifier>{F14B916B-93E3-350B-4035-A4960DDC0E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\toolkit">
+      <UniqueIdentifier>{F14B916B-93E3-350B-4035-A4960DDC0E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\toolkit">
+      <UniqueIdentifier>{F14B916B-93E3-350B-4035-A4960DDC0E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\toolkit">
+      <UniqueIdentifier>{F14B916B-93E3-350B-4035-A4960DDC0E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\toolkit">
+      <UniqueIdentifier>{F14B916B-93E3-350B-4035-A4960DDC0E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\toolkit">
+      <UniqueIdentifier>{F14B916B-93E3-350B-4035-A4960DDC0E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\toolkit">
+      <UniqueIdentifier>{F14B916B-93E3-350B-4035-A4960DDC0E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\toolkit">
+      <UniqueIdentifier>{F14B916B-93E3-350B-4035-A4960DDC0E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\toolkit">
+      <UniqueIdentifier>{F14B916B-93E3-350B-4035-A4960DDC0E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib\toolkit">
+      <UniqueIdentifier>{F14B916B-93E3-350B-4035-A4960DDC0E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\taglib">
+      <UniqueIdentifier>{97787441-ED50-CDEE-493B-3E28CAF55286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D:">
+      <UniqueIdentifier>{E5D29F2B-0177-9942-CA95-0FF700094F89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D:\nowplaying-node">
+      <UniqueIdentifier>{5006A99F-86D4-6FA1-A685-3A323BF3AEF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D:\nowplaying-node\node_modules">
+      <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D:\nowplaying-node\node_modules\node-gyp">
+      <UniqueIdentifier>{77348C0E-2034-7791-74D5-63C077DF5A3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D:\nowplaying-node\node_modules\node-gyp\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\SDKs\AIMP\aimp2_sdk.h">
+      <Filter>..\src\SDKs\AIMP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SDKs\CAD\cad_sdk.h">
+      <Filter>..\src\SDKs\CAD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SDKs\iTunes\iTunesCOMInterface.h">
+      <Filter>..\src\SDKs\iTunes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\SDKs\iTunes\iTunesCOMInterface_i.c">
+      <Filter>..\src\SDKs\iTunes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\src\SDKs\Winamp\wa_cmd.h">
+      <Filter>..\src\SDKs\Winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SDKs\Winamp\wa_dlg.h">
+      <Filter>..\src\SDKs\Winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SDKs\Winamp\wa_hotkeys.h">
+      <Filter>..\src\SDKs\Winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SDKs\Winamp\wa_ipc.h">
+      <Filter>..\src\SDKs\Winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\ape\apefile.h">
+      <Filter>..\src\taglib\ape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\ape\apefooter.h">
+      <Filter>..\src\taglib\ape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\ape\apeitem.h">
+      <Filter>..\src\taglib\ape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\ape\apeproperties.h">
+      <Filter>..\src\taglib\ape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\ape\apetag.h">
+      <Filter>..\src\taglib\ape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\asf\asfattribute.h">
+      <Filter>..\src\taglib\asf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\asf\asffile.h">
+      <Filter>..\src\taglib\asf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\asf\asfpicture.h">
+      <Filter>..\src\taglib\asf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\asf\asfproperties.h">
+      <Filter>..\src\taglib\asf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\asf\asftag.h">
+      <Filter>..\src\taglib\asf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\audioproperties.h">
+      <Filter>..\src\taglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\fileref.h">
+      <Filter>..\src\taglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\flac\flacfile.h">
+      <Filter>..\src\taglib\flac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\flac\flacmetadatablock.h">
+      <Filter>..\src\taglib\flac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\flac\flacpicture.h">
+      <Filter>..\src\taglib\flac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\flac\flacproperties.h">
+      <Filter>..\src\taglib\flac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\flac\flacunknownmetadatablock.h">
+      <Filter>..\src\taglib\flac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mp4\mp4atom.h">
+      <Filter>..\src\taglib\mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mp4\mp4coverart.h">
+      <Filter>..\src\taglib\mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mp4\mp4file.h">
+      <Filter>..\src\taglib\mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mp4\mp4item.h">
+      <Filter>..\src\taglib\mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mp4\mp4properties.h">
+      <Filter>..\src\taglib\mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mp4\mp4tag.h">
+      <Filter>..\src\taglib\mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpc\mpcfile.h">
+      <Filter>..\src\taglib\mpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpc\mpcproperties.h">
+      <Filter>..\src\taglib\mpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v1\id3v1genres.h">
+      <Filter>..\src\taglib\mpeg\id3v1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v1\id3v1tag.h">
+      <Filter>..\src\taglib\mpeg\id3v1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\attachedpictureframe.h">
+      <Filter>..\src\taglib\mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\commentsframe.h">
+      <Filter>..\src\taglib\mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\generalencapsulatedobjectframe.h">
+      <Filter>..\src\taglib\mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\ownershipframe.h">
+      <Filter>..\src\taglib\mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\popularimeterframe.h">
+      <Filter>..\src\taglib\mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\privateframe.h">
+      <Filter>..\src\taglib\mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\relativevolumeframe.h">
+      <Filter>..\src\taglib\mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\textidentificationframe.h">
+      <Filter>..\src\taglib\mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\uniquefileidentifierframe.h">
+      <Filter>..\src\taglib\mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\unknownframe.h">
+      <Filter>..\src\taglib\mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\unsynchronizedlyricsframe.h">
+      <Filter>..\src\taglib\mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\urllinkframe.h">
+      <Filter>..\src\taglib\mpeg\id3v2\frames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\id3v2extendedheader.h">
+      <Filter>..\src\taglib\mpeg\id3v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\id3v2footer.h">
+      <Filter>..\src\taglib\mpeg\id3v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\id3v2frame.h">
+      <Filter>..\src\taglib\mpeg\id3v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\id3v2framefactory.h">
+      <Filter>..\src\taglib\mpeg\id3v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\id3v2header.h">
+      <Filter>..\src\taglib\mpeg\id3v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\id3v2synchdata.h">
+      <Filter>..\src\taglib\mpeg\id3v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\id3v2tag.h">
+      <Filter>..\src\taglib\mpeg\id3v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\mpegfile.h">
+      <Filter>..\src\taglib\mpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\mpegheader.h">
+      <Filter>..\src\taglib\mpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\mpegproperties.h">
+      <Filter>..\src\taglib\mpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\mpeg\xingheader.h">
+      <Filter>..\src\taglib\mpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\ogg\flac\oggflacfile.h">
+      <Filter>..\src\taglib\ogg\flac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\ogg\oggfile.h">
+      <Filter>..\src\taglib\ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\ogg\oggpage.h">
+      <Filter>..\src\taglib\ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\ogg\oggpageheader.h">
+      <Filter>..\src\taglib\ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\ogg\speex\speexfile.h">
+      <Filter>..\src\taglib\ogg\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\ogg\speex\speexproperties.h">
+      <Filter>..\src\taglib\ogg\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\ogg\vorbis\vorbisfile.h">
+      <Filter>..\src\taglib\ogg\vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\ogg\vorbis\vorbisproperties.h">
+      <Filter>..\src\taglib\ogg\vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\ogg\xiphcomment.h">
+      <Filter>..\src\taglib\ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\tag.h">
+      <Filter>..\src\taglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\taglib_config.h">
+      <Filter>..\src\taglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\taglib_export.h">
+      <Filter>..\src\taglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\tagunion.h">
+      <Filter>..\src\taglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\toolkit\taglib.h">
+      <Filter>..\src\taglib\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\toolkit\tbytevector.h">
+      <Filter>..\src\taglib\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\toolkit\tbytevectorlist.h">
+      <Filter>..\src\taglib\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\toolkit\tbytevectorstream.h">
+      <Filter>..\src\taglib\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\toolkit\tdebug.h">
+      <Filter>..\src\taglib\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\toolkit\tdebuglistener.h">
+      <Filter>..\src\taglib\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\toolkit\tfile.h">
+      <Filter>..\src\taglib\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\toolkit\tfilestream.h">
+      <Filter>..\src\taglib\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\toolkit\tiostream.h">
+      <Filter>..\src\taglib\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\toolkit\tlist.h">
+      <Filter>..\src\taglib\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\toolkit\tmap.h">
+      <Filter>..\src\taglib\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\toolkit\tpropertymap.h">
+      <Filter>..\src\taglib\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\toolkit\trefcounter.h">
+      <Filter>..\src\taglib\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\toolkit\tstring.h">
+      <Filter>..\src\taglib\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\toolkit\tstringlist.h">
+      <Filter>..\src\taglib\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\toolkit\tutils.h">
+      <Filter>..\src\taglib\toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\taglib\toolkit\unicode.h">
+      <Filter>..\src\taglib\toolkit</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\Cover.cpp">
+      <Filter>..\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\src\Cover.h">
+      <Filter>..\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\NowPlaying-node.cpp">
+      <Filter>..\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NowPlaying.cpp">
+      <Filter>..\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\src\NowPlaying.h">
+      <Filter>..\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\Player.cpp">
+      <Filter>..\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\src\Player.h">
+      <Filter>..\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\PlayerAIMP.cpp">
+      <Filter>..\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\src\PlayerAIMP.h">
+      <Filter>..\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\PlayerCAD.cpp">
+      <Filter>..\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\src\PlayerCAD.h">
+      <Filter>..\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\PlayerITunes.cpp">
+      <Filter>..\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\src\PlayerITunes.h">
+      <Filter>..\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\PlayerSpotify.cpp">
+      <Filter>..\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\src\PlayerSpotify.h">
+      <Filter>..\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\PlayerWinamp.cpp">
+      <Filter>..\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\src\PlayerWinamp.h">
+      <Filter>..\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\PlayerWLM.cpp">
+      <Filter>..\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\src\PlayerWLM.h">
+      <Filter>..\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\PlayerWMP.cpp">
+      <Filter>..\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\src\PlayerWMP.h">
+      <Filter>..\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\taglib\TagLibUnity_ape.cpp">
+      <Filter>..\src\taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\taglib\TagLibUnity_asf.cpp">
+      <Filter>..\src\taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\taglib\TagLibUnity_flac.cpp">
+      <Filter>..\src\taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\taglib\TagLibUnity_mp4.cpp">
+      <Filter>..\src\taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\taglib\TagLibUnity_mpeg_id3v2.cpp">
+      <Filter>..\src\taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\taglib\TagLibUnity_mpeg.cpp">
+      <Filter>..\src\taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\taglib\TagLibUnity_ogg.cpp">
+      <Filter>..\src\taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\taglib\TagLibUnity_toolkit.cpp">
+      <Filter>..\src\taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\taglib\TagLibUnity.cpp">
+      <Filter>..\src\taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\nowplaying-node\node_modules\node-gyp\src\win_delay_load_hook.cc">
+      <Filter>D:\nowplaying-node\node_modules\node-gyp\src</Filter>
+    </ClCompile>
+    <None Include="..\binding.gyp">
+      <Filter>..</Filter>
+    </None>
+  </ItemGroup>
+</Project>

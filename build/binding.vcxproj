@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8371AB22-69BB-B244-0CA0-A8409C6B6049}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>binding</RootNamespace>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Locals">
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros"/>
+  <PropertyGroup>
+    <ExecutablePath>$(ExecutablePath);$(MSBuildProjectDirectory)\..\bin\;$(MSBuildProjectDirectory)\..\bin\</ExecutablePath>
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <IntDir>$(Configuration)\obj\$(ProjectName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.node</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.node</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.node</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.node</TargetExt>
+    <TargetName>$(ProjectName)</TargetName>
+    <TargetPath>$(OutDir)\$(ProjectName).node</TargetPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\xuank\.node-gyp\9.11.1\include\node;C:\Users\xuank\.node-gyp\9.11.1\src;C:\Users\xuank\.node-gyp\9.11.1\deps\uv\include;C:\Users\xuank\.node-gyp\9.11.1\deps\v8\include;D:\nowplaying-node\node_modules\node-addon-api;D:\nowplaying-node;D:\nowplaying-node\src;D:\nowplaying-node\src\SDKs;D:\nowplaying-node\src\taglib;D:\nowplaying-node\src\taglib\ape;D:\nowplaying-node\src\taglib\asf;D:\nowplaying-node\src\taglib\flac;D:\nowplaying-node\src\taglib\mp4;D:\nowplaying-node\src\taglib\mpc;D:\nowplaying-node\src\taglib\mpeg;D:\nowplaying-node\src\taglib\mpeg\id3v1;D:\nowplaying-node\src\taglib\mpeg\id3v2;D:\nowplaying-node\src\taglib\mpeg\id3v2\frames;D:\nowplaying-node\src\taglib\ogg;D:\nowplaying-node\src\taglib\ogg\flac;D:\nowplaying-node\src\taglib\ogg\vorbis;D:\nowplaying-node\src\taglib\toolkit;D:\nowplaying-node\src\taglib\wavpack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/GR /bigobj /MP %(AdditionalOptions)</AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4351;4355;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=binding;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;NAPI_CPP_EXCEPTIONS;UNICODE;BUILDING_NODE_EXTENSION;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\Users\xuank\.node-gyp\9.11.1\x64\node.lib&quot;;Shlwapi.lib</AdditionalDependencies>
+      <AdditionalOptions>/ignore:4199 %(AdditionalOptions)</AdditionalOptions>
+      <AllowIsolation>true</AllowIsolation>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <DelayLoadDLLs>iojs.exe;node.exe;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapExports>true</MapExports>
+      <OutputFile>$(OutDir)$(ProjectName).node</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetExt>.node</TargetExt>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:\Users\xuank\.node-gyp\9.11.1\include\node;C:\Users\xuank\.node-gyp\9.11.1\src;C:\Users\xuank\.node-gyp\9.11.1\deps\uv\include;C:\Users\xuank\.node-gyp\9.11.1\deps\v8\include;D:\nowplaying-node\node_modules\node-addon-api;D:\nowplaying-node;D:\nowplaying-node\src;D:\nowplaying-node\src\SDKs;D:\nowplaying-node\src\taglib;D:\nowplaying-node\src\taglib\ape;D:\nowplaying-node\src\taglib\asf;D:\nowplaying-node\src\taglib\flac;D:\nowplaying-node\src\taglib\mp4;D:\nowplaying-node\src\taglib\mpc;D:\nowplaying-node\src\taglib\mpeg;D:\nowplaying-node\src\taglib\mpeg\id3v1;D:\nowplaying-node\src\taglib\mpeg\id3v2;D:\nowplaying-node\src\taglib\mpeg\id3v2\frames;D:\nowplaying-node\src\taglib\ogg;D:\nowplaying-node\src\taglib\ogg\flac;D:\nowplaying-node\src\taglib\ogg\vorbis;D:\nowplaying-node\src\taglib\toolkit;D:\nowplaying-node\src\taglib\wavpack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=binding;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;NAPI_CPP_EXCEPTIONS;UNICODE;BUILDING_NODE_EXTENSION;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\xuank\.node-gyp\9.11.1\include\node;C:\Users\xuank\.node-gyp\9.11.1\src;C:\Users\xuank\.node-gyp\9.11.1\deps\uv\include;C:\Users\xuank\.node-gyp\9.11.1\deps\v8\include;D:\nowplaying-node\node_modules\node-addon-api;D:\nowplaying-node;D:\nowplaying-node\src;D:\nowplaying-node\src\SDKs;D:\nowplaying-node\src\taglib;D:\nowplaying-node\src\taglib\ape;D:\nowplaying-node\src\taglib\asf;D:\nowplaying-node\src\taglib\flac;D:\nowplaying-node\src\taglib\mp4;D:\nowplaying-node\src\taglib\mpc;D:\nowplaying-node\src\taglib\mpeg;D:\nowplaying-node\src\taglib\mpeg\id3v1;D:\nowplaying-node\src\taglib\mpeg\id3v2;D:\nowplaying-node\src\taglib\mpeg\id3v2\frames;D:\nowplaying-node\src\taglib\ogg;D:\nowplaying-node\src\taglib\ogg\flac;D:\nowplaying-node\src\taglib\ogg\vorbis;D:\nowplaying-node\src\taglib\toolkit;D:\nowplaying-node\src\taglib\wavpack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/GR /MP %(AdditionalOptions)</AdditionalOptions>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4351;4355;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=binding;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;NAPI_CPP_EXCEPTIONS;UNICODE;BUILDING_NODE_EXTENSION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\Users\xuank\.node-gyp\9.11.1\x64\node.lib&quot;;Shlwapi.lib</AdditionalDependencies>
+      <AdditionalOptions>/ignore:4199 /LTCG:INCREMENTAL %(AdditionalOptions)</AdditionalOptions>
+      <AllowIsolation>true</AllowIsolation>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <DelayLoadDLLs>iojs.exe;node.exe;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapExports>true</MapExports>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(OutDir)$(ProjectName).node</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetExt>.node</TargetExt>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:\Users\xuank\.node-gyp\9.11.1\include\node;C:\Users\xuank\.node-gyp\9.11.1\src;C:\Users\xuank\.node-gyp\9.11.1\deps\uv\include;C:\Users\xuank\.node-gyp\9.11.1\deps\v8\include;D:\nowplaying-node\node_modules\node-addon-api;D:\nowplaying-node;D:\nowplaying-node\src;D:\nowplaying-node\src\SDKs;D:\nowplaying-node\src\taglib;D:\nowplaying-node\src\taglib\ape;D:\nowplaying-node\src\taglib\asf;D:\nowplaying-node\src\taglib\flac;D:\nowplaying-node\src\taglib\mp4;D:\nowplaying-node\src\taglib\mpc;D:\nowplaying-node\src\taglib\mpeg;D:\nowplaying-node\src\taglib\mpeg\id3v1;D:\nowplaying-node\src\taglib\mpeg\id3v2;D:\nowplaying-node\src\taglib\mpeg\id3v2\frames;D:\nowplaying-node\src\taglib\ogg;D:\nowplaying-node\src\taglib\ogg\flac;D:\nowplaying-node\src\taglib\ogg\vorbis;D:\nowplaying-node\src\taglib\toolkit;D:\nowplaying-node\src\taglib\wavpack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=binding;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;NAPI_CPP_EXCEPTIONS;UNICODE;BUILDING_NODE_EXTENSION;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\binding.gyp"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\SDKs\AIMP\aimp2_sdk.h"/>
+    <ClInclude Include="..\src\SDKs\CAD\cad_sdk.h"/>
+    <ClInclude Include="..\src\SDKs\iTunes\iTunesCOMInterface.h"/>
+    <ClInclude Include="..\src\SDKs\Winamp\wa_cmd.h"/>
+    <ClInclude Include="..\src\SDKs\Winamp\wa_dlg.h"/>
+    <ClInclude Include="..\src\SDKs\Winamp\wa_hotkeys.h"/>
+    <ClInclude Include="..\src\SDKs\Winamp\wa_ipc.h"/>
+    <ClInclude Include="..\src\taglib\ape\apefile.h"/>
+    <ClInclude Include="..\src\taglib\ape\apefooter.h"/>
+    <ClInclude Include="..\src\taglib\ape\apeitem.h"/>
+    <ClInclude Include="..\src\taglib\ape\apeproperties.h"/>
+    <ClInclude Include="..\src\taglib\ape\apetag.h"/>
+    <ClInclude Include="..\src\taglib\asf\asfattribute.h"/>
+    <ClInclude Include="..\src\taglib\asf\asffile.h"/>
+    <ClInclude Include="..\src\taglib\asf\asfpicture.h"/>
+    <ClInclude Include="..\src\taglib\asf\asfproperties.h"/>
+    <ClInclude Include="..\src\taglib\asf\asftag.h"/>
+    <ClInclude Include="..\src\taglib\audioproperties.h"/>
+    <ClInclude Include="..\src\taglib\fileref.h"/>
+    <ClInclude Include="..\src\taglib\flac\flacfile.h"/>
+    <ClInclude Include="..\src\taglib\flac\flacmetadatablock.h"/>
+    <ClInclude Include="..\src\taglib\flac\flacpicture.h"/>
+    <ClInclude Include="..\src\taglib\flac\flacproperties.h"/>
+    <ClInclude Include="..\src\taglib\flac\flacunknownmetadatablock.h"/>
+    <ClInclude Include="..\src\taglib\mp4\mp4atom.h"/>
+    <ClInclude Include="..\src\taglib\mp4\mp4coverart.h"/>
+    <ClInclude Include="..\src\taglib\mp4\mp4file.h"/>
+    <ClInclude Include="..\src\taglib\mp4\mp4item.h"/>
+    <ClInclude Include="..\src\taglib\mp4\mp4properties.h"/>
+    <ClInclude Include="..\src\taglib\mp4\mp4tag.h"/>
+    <ClInclude Include="..\src\taglib\mpc\mpcfile.h"/>
+    <ClInclude Include="..\src\taglib\mpc\mpcproperties.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v1\id3v1genres.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v1\id3v1tag.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\attachedpictureframe.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\commentsframe.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\generalencapsulatedobjectframe.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\ownershipframe.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\popularimeterframe.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\privateframe.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\relativevolumeframe.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\textidentificationframe.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\uniquefileidentifierframe.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\unknownframe.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\unsynchronizedlyricsframe.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\frames\urllinkframe.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\id3v2extendedheader.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\id3v2footer.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\id3v2frame.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\id3v2framefactory.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\id3v2header.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\id3v2synchdata.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\id3v2\id3v2tag.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\mpegfile.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\mpegheader.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\mpegproperties.h"/>
+    <ClInclude Include="..\src\taglib\mpeg\xingheader.h"/>
+    <ClInclude Include="..\src\taglib\ogg\flac\oggflacfile.h"/>
+    <ClInclude Include="..\src\taglib\ogg\oggfile.h"/>
+    <ClInclude Include="..\src\taglib\ogg\oggpage.h"/>
+    <ClInclude Include="..\src\taglib\ogg\oggpageheader.h"/>
+    <ClInclude Include="..\src\taglib\ogg\speex\speexfile.h"/>
+    <ClInclude Include="..\src\taglib\ogg\speex\speexproperties.h"/>
+    <ClInclude Include="..\src\taglib\ogg\vorbis\vorbisfile.h"/>
+    <ClInclude Include="..\src\taglib\ogg\vorbis\vorbisproperties.h"/>
+    <ClInclude Include="..\src\taglib\ogg\xiphcomment.h"/>
+    <ClInclude Include="..\src\taglib\tag.h"/>
+    <ClInclude Include="..\src\taglib\taglib_config.h"/>
+    <ClInclude Include="..\src\taglib\taglib_export.h"/>
+    <ClInclude Include="..\src\taglib\tagunion.h"/>
+    <ClInclude Include="..\src\taglib\toolkit\taglib.h"/>
+    <ClInclude Include="..\src\taglib\toolkit\tbytevector.h"/>
+    <ClInclude Include="..\src\taglib\toolkit\tbytevectorlist.h"/>
+    <ClInclude Include="..\src\taglib\toolkit\tbytevectorstream.h"/>
+    <ClInclude Include="..\src\taglib\toolkit\tdebug.h"/>
+    <ClInclude Include="..\src\taglib\toolkit\tdebuglistener.h"/>
+    <ClInclude Include="..\src\taglib\toolkit\tfile.h"/>
+    <ClInclude Include="..\src\taglib\toolkit\tfilestream.h"/>
+    <ClInclude Include="..\src\taglib\toolkit\tiostream.h"/>
+    <ClInclude Include="..\src\taglib\toolkit\tlist.h"/>
+    <ClInclude Include="..\src\taglib\toolkit\tmap.h"/>
+    <ClInclude Include="..\src\taglib\toolkit\tpropertymap.h"/>
+    <ClInclude Include="..\src\taglib\toolkit\trefcounter.h"/>
+    <ClInclude Include="..\src\taglib\toolkit\tstring.h"/>
+    <ClInclude Include="..\src\taglib\toolkit\tstringlist.h"/>
+    <ClInclude Include="..\src\taglib\toolkit\tutils.h"/>
+    <ClInclude Include="..\src\taglib\toolkit\unicode.h"/>
+    <ClInclude Include="..\src\Cover.h"/>
+    <ClInclude Include="..\src\NowPlaying.h"/>
+    <ClInclude Include="..\src\Player.h"/>
+    <ClInclude Include="..\src\PlayerAIMP.h"/>
+    <ClInclude Include="..\src\PlayerCAD.h"/>
+    <ClInclude Include="..\src\PlayerITunes.h"/>
+    <ClInclude Include="..\src\PlayerSpotify.h"/>
+    <ClInclude Include="..\src\PlayerWinamp.h"/>
+    <ClInclude Include="..\src\PlayerWLM.h"/>
+    <ClInclude Include="..\src\PlayerWMP.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\SDKs\iTunes\iTunesCOMInterface_i.c"/>
+    <ClCompile Include="..\src\Cover.cpp"/>
+    <ClCompile Include="..\src\NowPlaying-node.cpp"/>
+    <ClCompile Include="..\src\NowPlaying.cpp"/>
+    <ClCompile Include="..\src\Player.cpp"/>
+    <ClCompile Include="..\src\PlayerAIMP.cpp"/>
+    <ClCompile Include="..\src\PlayerCAD.cpp"/>
+    <ClCompile Include="..\src\PlayerITunes.cpp"/>
+    <ClCompile Include="..\src\PlayerSpotify.cpp"/>
+    <ClCompile Include="..\src\PlayerWinamp.cpp"/>
+    <ClCompile Include="..\src\PlayerWLM.cpp"/>
+    <ClCompile Include="..\src\PlayerWMP.cpp"/>
+    <ClCompile Include="..\src\taglib\TagLibUnity_ape.cpp"/>
+    <ClCompile Include="..\src\taglib\TagLibUnity_asf.cpp"/>
+    <ClCompile Include="..\src\taglib\TagLibUnity_flac.cpp"/>
+    <ClCompile Include="..\src\taglib\TagLibUnity_mp4.cpp"/>
+    <ClCompile Include="..\src\taglib\TagLibUnity_mpeg_id3v2.cpp"/>
+    <ClCompile Include="..\src\taglib\TagLibUnity_mpeg.cpp"/>
+    <ClCompile Include="..\src\taglib\TagLibUnity_ogg.cpp"/>
+    <ClCompile Include="..\src\taglib\TagLibUnity_toolkit.cpp"/>
+    <ClCompile Include="..\src\taglib\TagLibUnity.cpp"/>
+    <ClCompile Include="D:\nowplaying-node\node_modules\node-gyp\src\win_delay_load_hook.cc"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\node_modules\node-addon-api\src\nothing.vcxproj">
+      <Project>{0089BE3E-3A1D-39A4-943E-3BBD96AF89E1}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets"/>
+  <ImportGroup Label="ExtensionTargets"/>
+</Project>

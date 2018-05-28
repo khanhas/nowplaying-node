@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node-addon-api)", "..\nowplaying-node\node_modules\node-addon-api", "{4EFCAB74-6C7C-233C-4485-84337286C0E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node_modules)", "..\nowplaying-node\node_modules", "{B3E87C1E-823A-68CA-C5CE-B4AAF1F3E377}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(nowplaying-node)", "..\nowplaying-node", "{74F6E46A-57A0-86DD-F19C-C7C01E8D6EBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(src)", "..\nowplaying-node\node_modules\node-addon-api\src", "{57FA51E2-B9D1-F13E-06F0-5371C03C4F4D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "binding", "binding.vcxproj", "{8371AB22-69BB-B244-0CA0-A8409C6B6049}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0089BE3E-3A1D-39A4-943E-3BBD96AF89E1} = {0089BE3E-3A1D-39A4-943E-3BBD96AF89E1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nothing", "..\node_modules\node-addon-api\src\nothing.vcxproj", "{0089BE3E-3A1D-39A4-943E-3BBD96AF89E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0089BE3E-3A1D-39A4-943E-3BBD96AF89E1}.Debug|x64.ActiveCfg = Debug|x64
+		{0089BE3E-3A1D-39A4-943E-3BBD96AF89E1}.Debug|x64.Build.0 = Debug|x64
+		{0089BE3E-3A1D-39A4-943E-3BBD96AF89E1}.Release|x64.ActiveCfg = Release|x64
+		{0089BE3E-3A1D-39A4-943E-3BBD96AF89E1}.Release|x64.Build.0 = Release|x64
+		{8371AB22-69BB-B244-0CA0-A8409C6B6049}.Debug|x64.ActiveCfg = Debug|x64
+		{8371AB22-69BB-B244-0CA0-A8409C6B6049}.Debug|x64.Build.0 = Debug|x64
+		{8371AB22-69BB-B244-0CA0-A8409C6B6049}.Release|x64.ActiveCfg = Release|x64
+		{8371AB22-69BB-B244-0CA0-A8409C6B6049}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57FA51E2-B9D1-F13E-06F0-5371C03C4F4D} = {4EFCAB74-6C7C-233C-4485-84337286C0E0}
+		{4EFCAB74-6C7C-233C-4485-84337286C0E0} = {B3E87C1E-823A-68CA-C5CE-B4AAF1F3E377}
+		{B3E87C1E-823A-68CA-C5CE-B4AAF1F3E377} = {74F6E46A-57A0-86DD-F19C-C7C01E8D6EBE}
+		{0089BE3E-3A1D-39A4-943E-3BBD96AF89E1} = {57FA51E2-B9D1-F13E-06F0-5371C03C4F4D}
+	EndGlobalSection
+EndGlobal

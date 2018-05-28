@@ -29,8 +29,9 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-#Build project files
-build
+#Binary files
+build/Release
+build/Debug
 
 # Dependency directories
 node_modules/
