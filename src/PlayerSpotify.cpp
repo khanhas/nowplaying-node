@@ -6,6 +6,8 @@
  * obtain one at <https://www.gnu.org/licenses/gpl-2.0.html>. */
 
 #include "PlayerSpotify.h"
+#include <Psapi.h>
+#include <Shlwapi.h>
 
 Player *PlayerSpotify::c_Player = nullptr;
 
@@ -44,12 +46,17 @@ bool PlayerSpotify::CheckWindow() {
   if (time - m_LastCheckTime > 5000) {
     m_LastCheckTime = time;
 
-    m_Window = FindWindow(L"Chrome_WidgetWin_0", nullptr);
-    if (m_Window) {
+    HWND prev = FindWindowEx(NULL, NULL, L"Chrome_WidgetWin_0", NULL);
+
+    while (prev != NULL && (GetWindowTextLength(prev) == 0 ||
+                            _wcsicmp(GetExe(prev), L"SPOTIFY.EXE") != 0)) {
+      prev = FindWindowEx(NULL, prev, L"Chrome_WidgetWin_0", NULL);
+    }
+    if (prev != NULL) {
+      m_Window = prev;
       m_Initialized = true;
     }
   }
-
   return m_Initialized;
 }
 
@@ -61,11 +68,9 @@ void PlayerSpotify::UpdateData() {
   if (m_Initialized || CheckWindow()) {
     // Parse title and artist from window title
     WCHAR buffer[256];
-
     // Length of window is now 7 when not playing
     if (GetWindowText(m_Window, buffer, 256) > 7) {
       std::wstring title = buffer;
-
       std::wstring::size_type pos = title.find(L" - ");
       if (pos != std::wstring::npos) {
         std::wstring artist(title, 0, pos);
@@ -173,4 +178,23 @@ void PlayerSpotify::OpenPlayer(std::wstring &path) {
     ShowWindow(m_Window, SW_SHOWNORMAL);
     BringWindowToTop(m_Window);
   }
+}
+
+LPCWSTR GetExe(HWND hwnd) {
+  WCHAR procPath[400];
+  procPath[0] = 0;
+
+  DWORD procID;
+  GetWindowThreadProcessId(hwnd, &procID);
+
+  HANDLE checkProc = OpenProcess(PROCESS_ALL_ACCESS, false, procID);
+  if (checkProc != NULL) {
+    GetModuleFileNameEx(checkProc, NULL, procPath, 400);
+    CloseHandle(checkProc);
+    if (procPath[0] != 0) {
+      return PathFindFileName(procPath);
+    }
+  }
+
+  return L"";
 }

@@ -47,4 +47,6 @@ private:
   DWORD m_LastCheckTime;
 };
 
+LPCWSTR GetExe(HWND hwnd);
+
 #endif
