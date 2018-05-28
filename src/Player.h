@@ -11,6 +11,8 @@
 #include "Cover.h"
 #include "taglib\fileref.h"
 #include "taglib\tag.h"
+#include <atomic>
+#include <future>
 
 enum StateType { STATE_STOPPED, STATE_PLAYING, STATE_PAUSED };
 
@@ -26,7 +28,7 @@ public:
   UINT GetTrackCount() const { return m_TrackCount; }
 
   void FindCover();
-  bool m_getCover;
+  bool m_fetchCover;
 
   virtual void Pause() {}
   virtual void Play() {}

@@ -46,11 +46,9 @@ Persistent<Function> NowPlaying::constructor;
 
 NowPlaying::NowPlaying(Player *player, std::wstring playerPath)
     : _player(player), trackCount(0), trackChanged(false),
-      playerPath(playerPath) {
-  //_player = player;
-}
+      playerPath(playerPath) {}
 
-NowPlaying::~NowPlaying() { printf("Deleted"); }
+NowPlaying::~NowPlaying() { delete _player; }
 
 void NowPlaying::New(const FBVALUE &args) {
   Isolate *isolate = args.GetIsolate();
@@ -66,16 +64,22 @@ void NowPlaying::New(const FBVALUE &args) {
     Local<Object> setting = args[0].As<Object>();
 
     int playerName = GetInt(isolate, setting, "player", 0);
-    if (playerName == PlayerName::AIMP) {
+
+    switch (playerName) {
+    case PlayerName::AIMP: {
       player = PlayerAIMP::Create();
-    } else if (playerName == PlayerName::CAD) {
+      break;
+    }
+    case PlayerName::CAD: {
       player = PlayerCAD::Create();
-    } else if (playerName == PlayerName::FOOBAR) {
+      break;
+    }
+    case PlayerName::FOOBAR: {
       HWND fooWindow = FindWindow(L"foo_rainmeter_class", nullptr);
       if (fooWindow) {
-        const WCHAR *error = L"Your foobar2000 plugin is out of date.\n\nDo "
-                             L"you want to update the plugin now?";
-        if (MessageBox(nullptr, error, L"NowPlayingJS",
+        const WCHAR *error = L"Your foobar2000 plugin is out of date.\n\n"
+                             L"Do you want to update the plugin now?";
+        if (MessageBox(nullptr, error, L"nowplaying-node",
                        MB_YESNO | MB_ICONINFORMATION | MB_TOPMOST) == IDYES) {
           ShellExecute(nullptr, L"open",
                        L"http://github.com/poiru/foo-cad#readme", nullptr,
@@ -84,26 +88,37 @@ void NowPlaying::New(const FBVALUE &args) {
       }
 
       player = PlayerCAD::Create();
-    } else if (playerName == PlayerName::ITUNES) {
+      break;
+    }
+    case PlayerName::ITUNES: {
       player = PlayerITunes::Create();
-    } else if (playerName == PlayerName::MEDIAMONKEY) {
+      break;
+    }
+    case PlayerName::MEDIAMONKEY: {
       player = PlayerWinamp::Create(WA_MEDIAMONKEY);
-    } else if (playerName == PlayerName::SPOTIFY) {
+      break;
+    }
+    case PlayerName::SPOTIFY: {
       player = PlayerSpotify::Create();
-    } else if (playerName == PlayerName::WINAMP) {
+      break;
+    }
+    case PlayerName::WINAMP: {
       player = PlayerWinamp::Create(WA_WINAMP);
-    } else if (playerName == PlayerName::WMP) {
+      break;
+    }
+    case PlayerName::WMP: {
       player = PlayerWMP::Create();
-    } else {
+      break;
+    }
+    default: {
       player = PlayerWLM::Create();
-
       if (playerName != PlayerName::WLM) {
         printf("Invalid player option. Fallback to WLM.");
       }
     }
+    }
 
-    bool getCover = GetBoolean(isolate, setting, "getCover", false);
-    player->m_getCover = getCover;
+    player->m_fetchCover = GetBoolean(isolate, setting, "fetchCover", false);
 
     Local<Value> playerPathVal =
         setting->Get(v8::String::NewFromUtf8(isolate, "playerPath"));
@@ -301,7 +316,7 @@ void NowPlaying::ClosePlayer(const FBVALUE &args) {
 
 void NowPlaying::Init(Local<Object> exports) {
   Isolate *isolate = exports->GetIsolate();
-  printf("Initing");
+
   // Prepare constructor template
   Local<FUNCTIONTEMPLATE> tpl = FUNCTIONTEMPLATE::New(isolate, New);
   tpl->SetClassName(v8::String::NewFromUtf8(isolate, "NowPlaying"));

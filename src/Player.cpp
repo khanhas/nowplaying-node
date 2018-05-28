@@ -14,7 +14,7 @@
 Player::Player()
     : m_Initialized(false), m_TrackCount(), m_State(), m_Number(), m_Year(),
       m_Shuffle(false), m_Repeat(false), m_Duration(), m_Position(), m_Rating(),
-      m_Volume(), m_getCover(false) {
+      m_Volume(), m_fetchCover(false) {
   // Get temporary file for cover art
   WCHAR buffer[MAX_PATH];
   GetTempPath(MAX_PATH, buffer);
