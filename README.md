@@ -1,5 +1,7 @@
 # nowplaying-node
 
+![build](https://ci.appveyor.com/api/projects/status/drbuy98474cs9rcf?svg=true)
+
 Currently investigating foobar and WMP player freezing cause.
 
 ## Install
