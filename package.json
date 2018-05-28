@@ -1,6 +1,6 @@
 {
   "name": "nowplaying-node",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Control AIMP, foobar2000, iTunes,... players and get track information.",
   "author": {
     "name": "khanhas",
