@@ -35,9 +35,17 @@
         "<(module_root_dir)/src/taglib/toolkit",
         "<(module_root_dir)/src/taglib/wavpack",
       ],
+      "libraries": ["Shlwapi.lib"],
       "dependencies": [
         "<!(node -p \"require('node-addon-api').gyp\")"
       ],
+      "msvs_settings": {
+						"VCCLCompilerTool": {
+							"AdditionalOptions": [
+								"/GR"
+							]
+						}
+      },
       "cflags!": ["-fno-exceptions"],
       "cflags_cc!": ["-fno-exceptions"],
       "defines": [
