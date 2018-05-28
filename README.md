@@ -8,10 +8,12 @@ You need windows-build-tools to build native module:
 npm --add-python-to-path install --global windows-build-tools
 ```
 
-Finally:  
+then run:  
 ```
 npm install nowplaying-node
 ```
+
+## Electron
 
 If you're making electron app, you might need to install `electron-rebuild`:  
 ```
@@ -21,12 +23,12 @@ then run:
 ```
 .\node_modules\.bin\electron-rebuild
 ```
-to rebuild usable module for your current Electron Node version.
+to rebuild usable module for your current Electron's Node version
 
 # How to use:
 Import NowPlaying:  
 ```js
-import { NowPlaying, PlayerName } from "NowPlaying";
+import { NowPlaying, PlayerName } from "nowplaying-node";
 ```
 
 Create player interface:
