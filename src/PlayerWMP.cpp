@@ -5,8 +5,10 @@
  * version. If a copy of the GPL was not distributed with this file, You can
  * obtain one at <https://www.gnu.org/licenses/gpl-2.0.html>. */
 
+// clang-format off
 #include <comdef.h>
 #include "PlayerWMP.h"
+// clang-format on
 
 Player *PlayerWMP::c_Player = nullptr;
 extern HINSTANCE g_Instance;
@@ -395,7 +397,7 @@ void PlayerWMP::UpdateData() {
 
           // Find cover if needed
           // TODO: Fix temp solution
-          if (m_getCover) {
+          if (m_fetchCover) {
             spMedia->getItemInfo(_bstr_t(L"WM/WMCollectionID"), &val);
             targetPath.resize(targetPath.find_last_of(L'\\') + 1);
             targetPath += L"AlbumArt_";

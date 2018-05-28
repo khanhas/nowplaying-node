@@ -155,7 +155,7 @@ void PlayerWinamp::UpdateData() {
         }
 
         // Find cover if needed
-        if (m_getCover) {
+        if (m_fetchCover) {
           if (tag && CCover::GetEmbedded(fr, m_TempCoverPath)) {
             // Got everything, return
             m_CoverPath = m_TempCoverPath;

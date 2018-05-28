@@ -39,7 +39,6 @@ Player *PlayerAIMP::Create() {
   if (!c_Player) {
     c_Player = new PlayerAIMP();
   }
-
   return c_Player;
 }
 
@@ -159,7 +158,7 @@ void PlayerAIMP::UpdateData() {
       m_FilePath = filepath;
       ++m_TrackCount;
 
-      if (m_getCover)
+      if (m_fetchCover)
         FindCover();
     }
   }

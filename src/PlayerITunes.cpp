@@ -317,7 +317,7 @@ void PlayerITunes::UpdateCachedData() {
       }
 
       // Update album art
-      if (m_getCover) {
+      if (m_fetchCover) {
         m_CoverPath.clear();
 
         // Check for embedded art through iTunes interface
