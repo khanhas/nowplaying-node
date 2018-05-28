@@ -19,14 +19,16 @@
   },
   "devDependencies": {
     "clang-format": "^1.2.3",
+    "ts-node": "^6.0.5",
     "typescript": "^2.8.3",
     "windows-build-tools": "^2.3.0"
   },
   "scripts": {
     "build": "node-gyp build",
     "rebuild": "node-gyp rebuild",
-    "lint": "clang-format -i --glob='src/*.{cpp,h}",
-    "tsc": "tsc"
+    "lint": "clang-format -i --glob=src/*.{cpp,h}",
+    "tsc": "tsc",
+    "ex": "ts-node"
   },
   "files": [
     "index.ts",

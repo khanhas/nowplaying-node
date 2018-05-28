@@ -13,18 +13,19 @@ export enum PlayerName {
 }
 
 export interface NowPlayingConfig {
-    getCover?: boolean;
+    fetchCover?: boolean;
     player: PlayerName;
     playerPath?: string;
 }
 
 export class NowPlaying {
     private instance: any;
+
     constructor(config: NowPlayingConfig) {
-        if (config.getCover === undefined) {
-            config.getCover = false;
+        const create = new np.NowPlaying(config);
+        if (create !== undefined) {
+            this.instance = create;
         }
-        this.instance = new np.NowPlaying(config);
     }
 
     /**

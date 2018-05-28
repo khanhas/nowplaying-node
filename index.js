@@ -15,10 +15,10 @@ var PlayerName;
 })(PlayerName = exports.PlayerName || (exports.PlayerName = {}));
 class NowPlaying {
     constructor(config) {
-        if (config.getCover === undefined) {
-            config.getCover = false;
+        const create = new np.NowPlaying(config);
+        if (create !== undefined) {
+            this.instance = create;
         }
-        this.instance = new np.NowPlaying(config);
     }
     /**
      * Closes the player.
